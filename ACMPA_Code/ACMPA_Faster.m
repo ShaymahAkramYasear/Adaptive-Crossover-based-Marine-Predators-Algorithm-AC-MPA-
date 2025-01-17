@@ -1,4 +1,4 @@
-function [Top_predator_fit, Top_predator_pos , Convergence_curve] = ACMPA_Faster(options)
+function [Top_predator_fit, Top_predator_pos , Convergence_curve] = ACMPA(options)
     % Extract options
     fno = options.CEC_fun_no;
     objf = options.objf;
