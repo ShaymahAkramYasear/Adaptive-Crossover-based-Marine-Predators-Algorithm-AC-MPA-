@@ -79,7 +79,6 @@ function []= Main_ACMPA()
                            'convergence_curves', convergence_curves, ...
                            'dimension', current_dimension);
             
-            save(sprintf('ACMPA_Results_Dim%d_Prob%d.mat', current_dimension, fn), 'results');
         end
 
         % Save complete results for current dimension
